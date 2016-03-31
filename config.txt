@@ -1,0 +1,3 @@
+pemfile='<PEM-file>.pem'
+remote_host='<AWS_INSTANCE_HOST>'
+jupyter_password=''<HASHED_PASSWORD>''
