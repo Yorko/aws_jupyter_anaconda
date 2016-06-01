@@ -20,4 +20,4 @@ c.NotebookApp.ip = '*'\n
 c.NotebookApp.open_browser = False\n
 c.NotebookApp.port = 8888\n" > ~/.ipython/profile_nbserver/ipython_notebook_config.py
 
-ipython notebook --config="~/.ipython/profile_nbserver/ipython_notebook_config.py" --certfile=jupyter.pem
+jupyter-notebook --config="~/.ipython/profile_nbserver/ipython_notebook_config.py" --certfile=jupyter.pem
